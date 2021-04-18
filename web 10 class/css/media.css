@@ -1,0 +1,294 @@
+.header-nav,
+.header,
+.main-about-me,
+.films_container,
+.connection_container
+{
+  min-width: 300px;
+}
+
+@media (max-width: 1360px)
+{
+  .header-nav
+  {
+    width: 100%;
+  }
+  .header
+  {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-quote
+  {
+    width: 500px;
+  }
+  .information_about_me
+  {
+    width: 500px;
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-left: 0;
+    margin-right: 27px;
+  }
+  .information-list
+  {
+    width: 330px;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: auto;
+    padding-left: 0px;
+  }
+  .films_container
+  {
+    width: 100%;
+  }
+  .films_coloms
+  {
+    justify-content: space-around;
+  }
+  .films_title
+  {
+    margin-left: 3%;
+  }
+  .connection_container
+  {
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .connection_header
+  {
+    text-align: center;
+  }
+  .entry_field
+  {
+    margin-left: 0px;
+  }
+  .write_me::after,
+  .write_me::before
+  {
+    display: none;
+  }
+}
+
+@media (max-width: 970px)
+{
+  .header
+  {
+    width: 100%;
+  }
+  .icon_container
+  {
+    width: 70%;
+  }
+  .header-profile_photo_container
+  {
+    float: none;
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-quote
+  {
+    float: none;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 30px;
+    text-align: center;
+    display: block;
+   }
+  .header-quote-container
+  {
+    width: 100%;
+  }
+  .header-my-blockquote,
+  .header-quote-author
+  {
+    color: #333333;
+  }
+  .information_about_me
+  {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    width: 60%;
+    padding-top: 0px;
+    display: block;
+    float: right;
+  }
+  .main-about-me
+  {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 380px;
+    height: auto;
+  }
+  .information-list
+  {
+    float: left;
+    width: 35%;
+    margin-left: 0;
+    padding-top: 0;
+  }
+  .list-header
+  {
+    font-weight: 600;
+  }
+  .annotation_film
+  {
+    margin-top: 15px;
+    padding-left: 10px;
+  }
+  .films_coloms
+  {
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 760px)
+{
+  .header-nav-list
+  {
+    width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-nav-item-link
+  {
+    display: inline-block;
+    padding-left: 15px;
+  }
+  .information_about_me
+  {
+    width: 55%;
+  }
+  .my-name
+  {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .information-list
+  {
+    width: 30%;
+  }
+  .list
+  {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .list-header
+  {
+    font-size: 19px;
+  }
+  .information_text
+  {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .entry_field
+  {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .field,
+  .field:hover,
+  .field:focus
+  {
+    width: 98%;
+  }
+  .field_list_select,
+  .field_list_select:hover,
+  .field_list_select:focus
+  {
+    width: 98%;
+  }
+  .field_message,
+  .field_message:hover,
+  .field_message:focus
+  {
+    width: 98.778%;
+  }
+  .footer
+  {
+    height: 80px;
+  }
+  .footer_text
+  {
+    line-height: 40px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 550px)
+{
+  .header-nav-item-link
+  {
+    width: 80%;
+  }
+  .header-nav
+  {
+    height: 150px;
+  }
+  .header-nav-list
+  {
+    width: 100%;
+    text-align: center;
+  }
+  .header-nav-list-item
+  {
+    height: 50px;
+    float: none;
+    display: block;
+  }
+  .header-nav-list-item:hover,
+  .header-nav-item-link:hover
+  {
+    width: 100%;
+    color: #f9f9f9;
+    transition: .3s;
+    background: #15a98c;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .information_about_me,
+  .information-list
+  {
+    float: none;
+    width: 90%;
+    padding-top: 40px;
+  }
+  .connection_container
+  {
+    width: 70%;
+  }
+  .entry_field
+  {
+    width: 98%;
+  }
+}
+
+@media (max-width: 380px)
+{
+  .footer
+  {
+    height: 120px;
+  }
+}
+
+@media (max-width: 342px)
+{
+  .header-profile_photo_container
+  {
+    width: 98%;
+  }
+  .profile-photo
+  {
+    width: 100%;
+  }
+}
